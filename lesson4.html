@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="homecss.css">
+</head>
+<body>
+
+<div class="topnav" id="myTopnav">
+  <div class="logo">WALTER PADOLINA</div>  
+  <a href="lesson.html" class="active">Lesson</a>
+  <a href="aboutme.html">About Me</a>
+  <a href="index.html" >Home</a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+
+<div style="padding-left:16px">
+  <style>
+    div.content {
+    margin-left: 225px;
+    padding: 1px 16px;
+    height: 1200px;
+    margin-right: 20px;
+    background-image: url("bgwalter.jpg")
+    }
+    </style>
+  <p><!DOCTYPE html>
+    <html>
+    <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <link rel="stylesheet" href="lesson.css"
+    </head>
+    <body>
+    
+    <div class="sidebar">
+      <a href="lesson1.html">HTML Introduction</a>
+      <a href="lesson2.html">HTML Editors</a>
+      <a href="lesson3.html">HTML Basics</a>
+      <a class="active" href="lesson4.html">HTML Elements</a>
+      <a href="lesson5.html">HTML Attributes</a>
+      <a href="lesson6.html">HTML Overall</a>
+      
+    
+    </div>
+    <div class="content">
+        <h1>HTML Elements</h1>
+        <p>An HTML element is defined by a start tag, some content, and an end tag.</p>
+        <h2>HTML Elements</h2>
+        
+        <p>The HTML element is everything from the start tag to the end tag:</p>
+        <img src="lesson4example1.png" alt="HTML Code Example">
+
+        <div>
+        <link rel="stylesheet" href="tible.css">
+        <table>
+        <tr>
+          <th>Start tag</th>
+          <th>Element Content</th>
+          <th>End tag</th>
+        </tr>
+        <tr>
+          <td>h1</td>
+          <td>My First Heading</td>
+          <td>/h1</td>
+        <tr>
+          <td>p</td>
+          <td>My first paragraph.</td>
+          <td>/p</td>
+        </tr>
+        <tr>
+          <td>br</td>
+          <td>none</td>
+          <td>none</td>
+        </tr>
+      </table>
+      </div>
+
+      <h2>Nested HTML Elements</h2>
+      <p>HTML elements can be nested (this means that elements can contain other elements).<br>
+        <br>
+        All HTML documents consist of nested HTML elements.</p>
+        <img src="lesson4example2.png" alt="HTML Code Example">
+
+
+        
+        
+    </body>
+    </html>
+    </p>
+</div>
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
+
+</body>
+</html>

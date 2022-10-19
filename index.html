@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="homecss.css">
+<link rel="stylesheet" href="/w3css/3/w3.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+</head>
+<body>
+
+<div class="topnav" id="myTopnav">
+  <div class="logo">WALTER PADOLINA</div>  
+  <a href="lesson.html" >Lesson</a>
+  <a href="aboutme.html">About Me</a>
+  <a href="index.html" class="active">Home</a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+
+<div class="header">
+  <link rel="stylesheet" href="header.css" 
+  <h1>Want to learn more about HTML?</h1>
+  <p>Click <a href="lesson.html">HERE</a>to learn more</p>
+</div>
+
+<div style="padding-left:0px">
+  <link rel="stylesheet" href="FORM.css">
+  <form action="/action_page.php">
+    <div class="container">
+      <h1>REGISTER HERE!</h1>
+      <p>Fill up this form to enroll now to Walter Padolina's HTML class</p>
+      <hr>
+  
+      <label for="email"><b>Email</b></label>
+      <input type="text" placeholder="Enter Email" name="email" id="email" required>
+  
+      <label for="psw"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" id="psw" required>
+  
+      <label for="psw-repeat"><b>Repeat Password</b></label>
+      <input type="password" placeholder="Repeat Password" name="psw-repeat" id="psw-repeat" required>
+      <hr>
+    
+      <button type="submit" class="registerbtn">Register</button>
+    </div>
+    
+    <div class="container signin">
+    </div>
+  </form>
+</div>
+
+
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
+
+</body>
+</html>
